@@ -1,0 +1,187 @@
+# ==================
+# Week 1
+#
+-
+  date: 2026-01-20
+  info: Introduction & Logistics
+  # slides: 01-intro
+-
+  date: 2026-01-22
+  info: Performance Basics
+  # slides: 02-perf-basics
+  # notes: 01-perf-basics.html
+#
+# ==================
+# Week 2
+#
+# -
+#   date: 2024-09-03
+#   info: Single processor architecture
+#   slides: 03-single-core
+# -
+#   date: 2024-09-05
+#   info: Basic optimizations
+#   slides: 04-basic-opt
+#   hw: P1 out
+#   hw: HW0 due
+# #
+# # ==================
+# # Week 3
+# #
+# -
+#   date: 2024-09-10
+#   info: Basic optimizations
+#   slides: 04-basic-opt
+#   notes: 02-gcp.html
+#   hw: Survey due
+# -
+#   date: 2024-09-12
+#   info: Parallel machines and models
+#   slides: 05-parallel-models
+# #
+# # ==================
+# # Week 4
+# #
+# -
+#   date: 2024-09-17
+#   info: Parallelism and locality in simulations
+#   slides: 06-simulations1
+# -
+#   date: 2024-09-19
+#   info: Parallelism and locality in simulations
+#   slides: 07-simulations2
+# #
+# # ==================
+# # Week 5
+# #
+# -
+#   date: 2024-09-24
+#   info: Distributed memory programming
+#   slides: 08-mpi
+# -
+#   date: 2024-09-26
+#   info: Distributed memory programming
+#   slides: 09-mpi
+# #
+# # ==================
+# # Week 6
+# #
+# -
+#   date: 2024-10-01
+#   info: Shared memory programming
+#   hw: P1 due, P2 out, HW1 due, HW2 out
+#   slides: 10-openmp
+# -
+#   date: 2024-10-03
+#   info: Shared memory programming
+#   slides: 11-openmp
+# #
+# # ==================
+# # Week 7
+# #
+# -
+#   date: 2024-10-08
+#   info: Heterogeneity and accelerators
+#   hw: HW2 due
+#   slides: 12-gpu
+# -
+#   date: 2024-10-10
+#   info: Heterogeneity and accelerators
+#   slides: 13-gpu
+# #
+# # ==================
+# # Week 8
+# #
+# -
+#   date: 2024-10-15
+#   break: Fall break
+# -
+#   date: 2024-10-17
+#   info: Guest lecture (Guidi)
+#   travel: Simons MPS
+# #
+# # ==================
+# # Week 9
+# #
+# -
+#   date: 2024-10-22
+#   info: Dense linear algebra
+#   slides: 14-densela
+#   hw: P3 out
+# -
+#   date: 2024-10-24
+#   info: Dense linear algebra
+#   slides: 15-densela
+#   hw: P2 due
+# #
+# # ==================
+# # Week 10
+# #
+# -
+#   date: 2024-10-29
+#   info: Sparse linear algebra
+#   slides: 16-sparsela
+#   hw: HW3 due
+# -
+#   date: 2024-10-31
+#   info: Sparse linear algebra
+#   slides: 17-sparsela
+#   hw: Final proposal
+# #
+# # ==================
+# # Week 11
+# #
+# -
+#   date: 2024-11-05
+#   info: Graph partitioning
+#   slides: 18-partition
+# -
+#   date: 2024-11-07
+#   info: Load balancing
+#   slides: 19-balance
+# #
+# # ==================
+# # Week 12
+# #
+# -
+#   date: 2024-11-12
+#   info: Guest lecture (Damle)
+#   travel: FMITF
+# -
+#   date: 2024-11-14
+#   info: Guest lecture (Damle)
+#   travel: Emory
+#   hw: P3 due
+# #
+# # ==================
+# # Week 13
+# #
+# -
+#   date: 2024-11-19
+#   info: The impact of floating point
+#   slides: 20-fp
+# -
+#   date: 2024-11-21
+#   info: Parallel graph algorithms
+#   slides: 21-graph
+# #
+# # ==================
+# # Week 14
+# #
+# -
+#   date: 2024-11-26
+#   info: Asynchronous iterations
+#   hw: Final outline
+# -
+#   date: 2024-11-28
+#   break: Thanksgiving
+# #
+# # ==================
+# # Week 15
+# #
+-
+  date: 2026-04-30
+  info: Project Presentations
+-
+  date: 2026-05-05
+  info: Project Presentations

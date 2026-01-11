@@ -1,0 +1,30 @@
+semester: Spring 2026
+discussion: https://edstem.org/us/courses/92417/discussion
+github: https://www.github.com/cs5220-26sp/
+location: Kimball Hall 122
+time: TR 1:25-2:40
+
+prof:
+  name: Giulia Guidi
+  url: https://giuliaguidi.github.io/
+  email: gguidi@cornell.edu
+  # phone: 607-255-5395
+  office: Gates 437
+  oh:
+    - when: "Tu 3:30-4:00"
+    - when: "Th 3:30-4:00"
+    # - when: or by appointment
+    #   url: "https://outlook.office.com/bookwithme/user/33d37e9c60e44e8ebbb4bb387be0c4fe@cornell.edu?anonymous&ep=plink"
+
+staff:
+  -
+    name: Julian Bellavita
+    url: https://jb2695.wixsite.com/jbellavita
+    email: jbellavita@cs.cornell.edu
+    oh:
+      - when: "TBD"
+  # -
+  #   name: Evan Vera
+  #   email: erv29@cornell.edu
+  #   oh:
+  #     - when: "T 4:30-6:30 at Rhodes 402"

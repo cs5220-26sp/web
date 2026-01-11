@@ -1,0 +1,12 @@
+title: Giulia Guidi
+email: gguidi@cornell.edu
+description: This is the academic home page for Giulia Guidi
+baseurl: "/courses/cs5220/2026sp"
+url: "http://www.cs.cornell.edu"
+
+encoding: utf-8
+timezone: America/New_York
+
+exclude: ["Rakefile"]
+
+markdown: kramdown

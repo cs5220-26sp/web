@@ -1,0 +1,220 @@
+---
+title: Readings
+layout: main
+---
+
+<em>This page was originally compiled by Professor David Bindel. I, Professor Guidi, share and fully endorse its content.</em>
+
+As an organizational note, none of us have enough hours in a day, and you probably will not read most of the references below. To help you identify the ones I most recommend, I have split each subsection into a main recommendation and other recommendations, and I deliberately include only one main recommendation.
+
+This page is a living document. If you know of good sources I have missed, please submit a pull request to the main repository.
+
+## Recommended Texts
+
+There is no required textbook for the course, and I will teach primarily from my own notes and slide decks, as well as from papers. Nonetheless, it is helpful to have one or two references.
+
+### Recommendation
+
+- [Introduction to High Performance Computing for Scientists and Engineers (Hager and Wellein)][hager-book]
+
+[hager-book]: http://www.amazon.com/Introduction-Performance-Computing-Scientists-Computational/dp/143981192X
+
+### Other Recommendations
+
+- [Structured Parallel Programming (McCool, Reinders, Robison)][mccool-book]
+- [Programming Massively Parallel Processors (Kirk and Hwu)][kirk-book]
+- [Performance Optimization of Numerically Intensive Codes (Goedecker)][goedecker-book]
+- [Principles of Parallel Programming (Lin and Snyder)][lin-book]
+- [Introduction to Parallel Programming (Pacheco)][pacheco-book]
+- [Parallel Programming (Wilkinson and Allen)][wilkinson-book]
+
+[mccool-book]: http://www.amazon.com/Structured-Parallel-Programming-Efficient-Computation/dp/0124159931
+[kirk-book]: http://www.amazon.com/Programming-Massively-Parallel-Processors-Second/dp/0124159923/
+[goedecker-book]: http://epubs.siam.org/doi/book/10.1137/1.9780898718218
+[lin-book]: http://www.amazon.com/Principles-Parallel-Programming-Calvin-Lin/dp/0321487907
+[pacheco-book]: http://www.amazon.com/Introduction-Parallel-Programming-Peter-Pacheco/dp/0123742609
+[wilkinson-book]: http://www.amazon.com/Parallel-Programming-Techniques-Applications-Workstations/dp/0131405632
+
+## Related Course Materials
+
+The closest course to CS 5220, aside from previous offerings of the class, is Jim Demmel's Applications of Computers (Berkeley CS 267).
+<!-- , [available here][cs267] in online form.
+
+[cs267]: https://sites.google.com/lbl.gov/cs267-spr2025 -->
+
+- Argonne National Lab runs
+  [ATPESC](https://extremecomputingtraining.anl.gov/agenda-2024/)
+  every summer (Argonne Training Program on Extreme-Scale Computing).
+  This covers many things from our class (plus some others) in about
+  two weeks.
+- Alan Edelman at MIT teaches a different parallel programming course,
+  with the most recent iterations based on [Julia][julia].  Materials
+  are [available here on MIT OpenCourseWare][mit-ocw-julia]].
+- Georgia Tech has two HPC courses; CSE 6220 and [CSE 6230][cse6230].
+  Without exploring in detail, I think we're closer to the latter.
+- Randy Leveque at UW has also been experimenting with a flipped
+  classroom for their intro HPC class, [AM583][am583]. You may also
+  be interested in the [MOOC version][am583-mooc].
+- The [NERSC docs](https://docs.nersc.gov/) have lots of good
+  auxiliary references.
+
+[julia]: http://julialang.org/
+[mit-ocw-julia]: http://ocw.mit.edu/courses/mathematics/18-337j-parallel-computing-fall-2011/
+[cse6230]: http://vuduc.org/cse6230/
+[am583]: http://faculty.washington.edu/rjl/classes/am583s2014/
+[am583-mooc]: https://www.coursera.org/course/scicomp
+
+## Related Resources from Intel
+
+Intel has lots of existing curricular content and
+tutorials and references on Intel parallel technology, and these
+are worth a browse.
+
+- [Intel code modernization site][modern-code]
+- [Intel MIC developer site][mic-developer]
+- [Video lectures on parallel computing][intel-university]
+- [Parallel programming curriculum initiative][pp-initiative]
+- [Parallel programming curriculum content][pp-curricula]
+
+[modern-code]: https://software.intel.com/en-us/modern-code
+[mic-developer]: https://software.intel.com/en-us/mic-developer
+[pp-initiative]: https://www-ssl.intel.com/content/www/us/en/education/university/parallel-programming-initiative.html
+[pp-curricula]: http://www.intel.com/content/www/us/en/education/university/parallel-programming-initiative/curricula.html
+[intel-university]: http://university.intel.com/
+
+## Recommended Software Skills Background
+
+Though I expect students taking the class to have some programming
+proficiency, that doesn't necessarily mean everyone will have seen
+a Unix command line or a version control system.  I *mostly* won't
+spend class time on this, so you should take some time to brush up
+on your own.
+
+[Software Carpentry][sw-carpentry] has good lessons on Unix shell
+and Git.  If you're unfamiliar with `make`, the lesson on Automation
+and Make may also be useful (though less immediately critical).
+
+[sw-carpentry]: http://software-carpentry.org/lessons.html
+
+### Other Recommendations
+
+- Cornell's Center for Advanced Computing (CAC) offers a number
+  of online training modules, including a good
+  [Linux introduction][cac-linux].
+- [GitHub][github] has links to several good resources for
+  [learning about Git and GitHub][github-learning].
+  I was particularly amused by the interactive [Try Git][try-git]
+  tutorial.
+- Atlassian (makers of [BitBucket][bitbucket]) have a good
+  [set of Git tutorials as well][bitbucket-turorials].
+- [ProGit][progit] is a freely available online book that
+  covers the basics and much more.
+
+As an aside, BitBucket is probably the primary competitor to GitHub. I recommend creating accounts on both GitHub and BitBucket; the latter offers unlimited private repositories for educational users, which is helpful for managing proposals, paper drafts, and other projects you may want to keep private initially.
+
+[cac-linux]: https://cvw.cac.cornell.edu/Linux/
+[github]: http://www.github.com/
+[github-learning]: https://help.github.com/articles/good-resources-for-learning-git-and-github/
+[try-git]: http://try.github.com/
+[bitbucket]: http://bitbucket.org/
+[bitbucket-tutorial]: https://www.atlassian.com/git/tutorials
+[progit]: http://git-scm.com/doc
+
+## C Background
+
+You *will* need prior programming experience in a C family language (Java, C, C++, or C#), but this does not mean you must have programmed in C before. We will use C as the common language for most of the class, so if you are not already familiar with it, it is a good idea to do some reading.
+
+### Reference
+
+[The C Programming Language (Kernighan and Ritchie)][kr-book]
+is the bible of C programming.  I like it both as a reference to
+the language and an example of how to write an effective manual.
+
+### Other references
+
+- The [C intro from CAC][c-cac] is not a bad place to get started
+  learning about C.  In particular, check out their
+  [references page][cref-cac].
+- Materials from an MIT course on [Practical Programming in C][mit-ocw-c]
+  also look pretty good.
+- Cornell offers courses in C (CS 2022) and C++ (CS 2024).
+
+[kr-book]: https://www.amazon.com/exec/obidos/ASIN/0131103628/
+[c-cac]: https://cvw.cac.cornell.edu/CIntro/
+[cref-cac]: https://cvw.cac.cornell.edu/main/reference
+[mit-ocw-c]: http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-087-practical-programming-in-c-january-iap-2010/lecture-notes/
+
+Specifically, you should review the lessons on the Unix shell and Git early, and the lesson on Automation and Make soon after. Later in the class, you may want to look at the lesson on Programming with Python.
+
+## C++ Background
+
+C++ is a *different language* from modern C. It is a much
+bigger language, partly because it provides more abstractions (and
+more safe abstractions), making it a nice choice for large-scale
+software development in particular.  At the same time, the language
+design is very wedded to maintaining C levels of performance -- the
+C++ philosophy is to avoid paying extra costs for abstractions if
+possible (and particularly for abstractions that you are not using).
+
+### Reference
+
+- For learning modern C++, [learncpp][learncpp] is a
+  good choice.  If you are a confident C programmer already, you can
+  skim past a lot.
+- For looking things up, [cppreference][cppreference] is great.
+
+[learncpp]: https://www.learncpp.com/
+[cppreference]: https://en.cppreference.com/
+
+### Other References
+
+- Stroustrop's [A Tour of C++][tourcpp] is a good overview if
+  you already are a confident programmer (and an excellent one if you
+  already know some C++ programming)
+- For the same audience, [Professional C++](gregoire)
+- The standard reference is [The C++ Programming Language][stroustrop4e]
+- If you prefer watching things, the [CppCon Back to Basics][cpp-b2b]
+  come recommended (I prefer books)
+
+[tourcpp]: https://www.stroustrup.com/tour3.html
+[gregoire]: https://www.wiley.com/en-us/Professional+C%2B%2B%2C+6th+Edition-p-9781394193172
+[stroustop4e]: https://www.stroustrup.com/4th.html
+[cpp-b2b]: https://www.youtube.com/user/CppCon/search?query=back%20to%20basics
+
+## Python Background
+
+Python is not strictly required for this class. Cornell offers a Python course (CS 1110) as its introductory course, but you are not the target audience for that class.
+
+### Reference
+
+CAC has instructional modules on [Introduction to Python][cac-pyintro]
+and [Python for HPC][cac-pyhpc] that fit well with the perspectives of
+this course.
+
+### Other References
+
+- The [Software Carpentry lessons][sw-carpentry] include a good Python
+  lesson that focuses on computational science uses.
+- The official [Python documentation][pydocs] is not a bad place to
+  start; see particularly the [tutorial][pytutorial] if you're new to
+  the language.
+- The [SciPy lecture notes][scipy-lectures] are a nice intro
+  to the SciPy ecosystem.
+- [Dive Into Python][divepy] is a nice introduction to Python for
+  experienced programmers coming from other languages.
+- My personal favorite Python text is probably
+  [Python Essential Reference][beazley]
+  by David Beazley.
+- I believe CS 1110 at Cornell has used [Think Python][thinkpy]
+  and [Thinking like a Computer Scientist][thinkcs] as texts
+  in the recent past.
+
+[cac-pyintro]: https://cvw.cac.cornell.edu/pythonintro/
+[cac-pyhpc]: https://cvw.cac.cornell.edu/python/
+[pydocs]: https://docs.python.org/3/
+[pytutorial]: https://docs.python.org/3/tutorial/index.html
+[scipy-lectures]: http://scipy-lectures.github.io/index.html
+[thinkpy]: http://www.greenteapress.com/thinkpython/html
+[thinkcs]: http://www.openbookproject.net/thinkcs/python/english3e
+[divepy]: http://www.diveintopython.net/index.html
+[beazley]: http://www.amazon.com/Python-Essential-Reference-4th-Edition/dp/0672329786

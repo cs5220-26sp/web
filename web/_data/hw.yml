@@ -1,0 +1,28 @@
+-
+  desc: "HW0: Hello, Perlmutter"
+  # file: hw1.html
+  due: 2026-01-29
+-
+  desc: "HW1: Matrix Multiply"
+  # file: proj1.html
+  due: 2026-02-05
+-
+  desc: "HW2: OpenMP Particle Simulation"
+  # file: hw1.html
+  due: 2026-02-19
+-
+  desc: "HW3: MPI Particle Simulation"
+  # file: hw2.html
+  due: 2026-03-05
+- 
+  desc: "HW4: Hello, CUDA"
+  # file: proj2.html
+  due: 2026-03-19
+-
+  desc: "HW5: Hello, Cerebras CSL"
+  # file: hw3.html
+  due: 2026-04-09
+-
+  desc: "HW6: Hello, UPC++"
+  # file: proj3.html
+  due: 2026-04-23
