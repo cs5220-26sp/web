@@ -4,7 +4,7 @@ layout: main
 ---
 
 <p>
-  This schedule should be considered tentative and subject to change,
+  [Under construction] This schedule should be considered tentative and subject to change,
   at least until it actually takes place!
 </p>
 
@@ -22,14 +22,14 @@ layout: main
         <th>Week</th>
         <th>Day</th>
         <th>Date</th>        
-        <th>Readings</th>
+        <th>Readings and Slides</th>
         <th>HW</th>
       </tr>
     </thead>
     {% for lec in site.data.lectures %}
     <tr{% if lec.break %} class="info"{% endif %}{% if lec.travel %} class="warning"{% endif %}>
       {% assign day = lec.date | date: "%a" %}
-      <th>{% if day == "Tue" %}{{ lec.date | date: "%U" | plus: -33 }}{% endif %}</th>
+      <th>{% if day == "Tue" %}{{ lec.date | date: "%U" | plus: -2 }}{% endif %}</th>
       <td>{{ day }},</td>
       <td>{{ lec.date | date: "%b %d" }}</td>      
       {% if lec.break %}

@@ -3,9 +3,10 @@ title:      Syllabus
 layout:     main
 ---
 
-## Logistical information
+## Logistics
 
 CS 5220, {{ site.data.logistics.semester }}: Applied High-Performance and Parallel Computing
+
 Lecture Time: {{ site.data.logistics.time }}  
 Lecture Location: {{ site.data.logistics.location }}
 

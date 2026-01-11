@@ -3,7 +3,7 @@
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
       <h1 class="media-heading">CS 5220</h1>
-      <h2>Applications of Parallel Computers</h2>
+      <h2>Applied High-Performance and Parallel Computing</h2>
     </div>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -25,7 +25,7 @@
         {% if prof.office -%}
         Office: {{ prof.office }}<br/>
         {%- endif %}
-        Office hours: {% for oh in prof.oh -%}
+        Office Hours: {% for oh in prof.oh -%}
             {%- if oh.url -%}
               <a href="{{ oh.url }}">{{ oh.when }}</a>
             {%- else -%}
@@ -39,7 +39,7 @@
       <p>
         TA: {% if ta.url %}<a href="{{ ta.url }}">{{ ta.name }}</a>{% else %}{{ ta.name }}{% endif %}<br/>
         Email: <a href="mailto:{{ ta.email }}">{{ ta.email }}</a><br/>
-        Office hours: {% for oh in ta.oh %}
+        Office Hours: {% for oh in ta.oh %}
             {% if oh.url -%}
               <a href="{{ oh.url }}">{{ oh.when }}</a>
             {% else -%}

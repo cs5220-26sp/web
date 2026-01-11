@@ -14,20 +14,20 @@
 # ==================
 # Week 2
 #
-# -
-#   date: 2024-09-03
-#   info: Single processor architecture
-#   slides: 03-single-core
-# -
-#   date: 2024-09-05
-#   info: Basic optimizations
-#   slides: 04-basic-opt
-#   hw: P1 out
-#   hw: HW0 due
-# #
-# # ==================
-# # Week 3
-# #
+-
+  date: 2026-01-27
+  info: A single processor architecture
+  # slides: 03-single-core
+-
+  date: 2026-01-29
+  info: Basic Optimizations
+  # slides: 04-basic-opt
+  # hw: HW1 out / HW0 due
+  # hw: HW0 due
+#
+# ==================
+# Week 3
+#
 # -
 #   date: 2024-09-10
 #   info: Basic optimizations
