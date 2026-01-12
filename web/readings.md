@@ -38,9 +38,6 @@ There is no required textbook for the course, and I will teach primarily from my
 ## Related Course Materials
 
 The closest course to CS 5220, aside from previous offerings of the class, is Jim Demmel's Applications of Computers (Berkeley CS 267).
-<!-- , [available here][cs267] in online form.
-
-[cs267]: https://sites.google.com/lbl.gov/cs267-spr2025 -->
 
 - Argonne National Lab runs
   [ATPESC](https://extremecomputingtraining.anl.gov/agenda-2024/)
