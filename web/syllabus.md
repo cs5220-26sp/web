@@ -97,9 +97,10 @@ This spring, we will distribute code via Git repositories and recommend using Gi
 
 Graded work will be weighted as follows:
 
-- Class participation: 10%
-- 6 homework: 60% (The lowest grade amongst the coding assignments will be dropped)
-- Project: 30%
+<!-- - Class participation: 10% -->
+- Assignments: 68% (The lowest grade amongst the coding assignments will be dropped)
+- Final Project: 30%
+- Course evaluations and surveys: 2%
 
 Your participation makes the class more interesting and useful
 for all of us. There are several ways to participate:
