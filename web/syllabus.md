@@ -105,7 +105,7 @@ Graded work will be weighted as follows:
 Your participation makes the class more interesting and useful
 for all of us. There are several ways to participate:
 
-- Coming to class
+- Coming to class and engaging with the material and each other
 - Actively engaging and answering questions on [Ed Discussion][Ed]
 - Helping correct and clarify class notes and assignments
 
