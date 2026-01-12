@@ -113,7 +113,7 @@ It is also important for us to receive your feedback on how the class is going, 
 
 ### Slip Days and Late Policy
 
-You may use up to **9 slip days total over the semester**, with **at most 3 slip days applied to any single assignment**. For each day an assignment is submitted past its due date (and after any available slip days are used), a **late penalty of 1.5% of the assignment’s total value per day** will be applied. **NO credit will be given for submissions more than 7 days past the due date**, regardless of available slip days.
+You may use up to **6 slip days total over the semester**, with **at most 2 slip days applied to any single assignment**. For each day an assignment is submitted past its due date (and after any available slip days are used), a **late penalty of 1.5% of the assignment’s total value per day** will be applied. **NO credit will be given for submissions more than 7 days past the due date**, regardless of available slip days.
 
 ### Exception (Strict Deadlines)
 
