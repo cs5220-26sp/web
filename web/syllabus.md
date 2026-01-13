@@ -166,7 +166,7 @@ the same whether they are produced by a human or an AI system.
 
 ### Perlmutter (Course Cluster)
 
-**NERSC Perlmutter** is the primary machine on which homework performance will be graded.
+**NERSC Perlmutter** is the primary machine on which homework performance will be graded. Use of Perlmutter is **strictly limited to course-related assignments and the final project**. Any use of Perlmutter for other courses, personal projects, or unrelated research work constitutes a **violation of the Cornell Academic Integrity Policy** and will be addressed accordingly.
 
 Be aware that Perlmutter may be unavailable for **24–48 hours every 2–3 weeks** due to planned maintenance. You must plan accordingly and **not wait until the last minute** to start your homework. **NO extensions will be granted for planned Perlmutter outages.** You are expected to regularly check Perlmutter’s status and planned outages (see link on the course site).
 
