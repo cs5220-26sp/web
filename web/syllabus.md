@@ -112,7 +112,15 @@ It is also important for us to receive your feedback on how the class is going, 
 
 ### Slip Days and Late Policy
 
-You may use up to **6 slip days total over the semester**, with **at most 2 slip days applied to any single assignment**. For each day an assignment is submitted past its due date (and after any available slip days are used), a **late penalty of 1.5% of the assignment’s total value per day** will be applied. **NO credit will be given for submissions more than 7 days past the due date**, regardless of available slip days.
+<!-- You may use up to **6 slip days total over the semester**, with **at most 2 slip days applied to any single assignment**. For each day an assignment is submitted past its due date (and after any available slip days are used), a **late penalty of 1.5% of the assignment’s total value per day** will be applied. **NO credit will be given for submissions more than 7 days past the due date**, regardless of available slip days. -->
+
+You may use up to **6 slip days total**, with **at most 2 per assignment**.  
+
+A submission late by even **1 second counts as 1 late day**.  
+
+For each late day, either one slip day is used or a **1.5% late penalty** is applied if no slip days are available or if the submission is more than 2 days late.
+
+You cannot turn in work **more than 7 days late**; doing so will result in a **0** on the assignment. The lowest grade amongst the coding assignments will be dropped.
 
 ### Exception (Strict Deadlines)
 
