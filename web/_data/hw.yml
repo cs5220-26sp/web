@@ -1,6 +1,6 @@
 -
   desc: "HW0: Hello, Perlmutter"
-  # file: hw1.html
+  file: hw0.html
   due: 2026-01-29
 -
   desc: "HW1: Matrix Multiply"
