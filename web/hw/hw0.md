@@ -67,7 +67,7 @@ jobs to a queue (using `sbatch`) with some set of parameters
 describing resources that will be used.  The script that is submitted
 includes additional parameters, shell commands to set up the
 appropriate environment, and shell commands to run whatever is to be
-run. There is an [example submission script](hello-submit) in the
+run. There is an [example submission script][hello-submit] in the
 class [demos][demos] (to be released on 2026-01-20) repository.
 
 It sometimes takes a bit for things to run, and it is not so easy to
