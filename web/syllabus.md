@@ -76,7 +76,7 @@ Prior exposure to parallel programming is not required, and non-CS students from
 
 The course work consists of:
 
-- *Lecture*: Participation is not mandatory but is encouraged, as it is not-so-fun to talk to myself. The slides will be posted before class and updated afterward as needed, for example, to include notes, examples, or exercises from class.
+- *Lecture*: Participation is not mandatory but is highly encouraged. The slides will be posted before class and updated afterward as needed.
 - *Homework*: Coding homework assignments require students to parallelize code, tune performance, and conduct performance experiments and analysis using different programming models. Each assignment is expected to take more than one day of work; students are strongly encouraged not to start the day before the deadline. You will have two weeks for each coding assignment. Homework is completed individually (see Collaboration below). The assignments are typically posted on Thursday and are due two weeks later on Thursday, with a check-in submission deadline after the first week for full credit.
 - *Final Projects*: In addition to the assigned projects, students will complete a significant final project of their choice. We will suggest final projects, or students may propose their own. Group projects are encouraged. Final project proposals are due before spring break, and groups are expected to make steady progress in April and early May. The last two lectures are reserved for project presentations, and the final project report is due during the finals period instead of a final exam.
 
