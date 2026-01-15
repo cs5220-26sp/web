@@ -84,7 +84,7 @@ the **login nodes**. Please do not to that.
 <!-- [hello-submit]: https://github.com/cs5220-f24/demos/blob/main/hello-submit.sh -->
 <!-- [demos]: https://github.com/cs5220-f24/demos -->
 
-## Your tasks (due 2026-01-27):
+## Your tasks (due 2026-01-29):
 
 - Create a NERSC account. It usually takes 2 to 5 business days to be vetted and approved, so do this right away.
 - Run the MPI ping-pong example from the [demos]() (to be released on 2026-01-14) subdirectory and submit
