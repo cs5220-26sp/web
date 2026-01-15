@@ -79,12 +79,12 @@
 -
   date: 2026-03-03
   info: Dense Linear Algebra
-  travel: SIAM PP
+  # travel: SIAM PP
   # slides: 12-gpu
 -
   date: 2026-03-05
   info: Sparse Linear Algebra
-  travel: SIAM PP
+  # travel: SIAM PP
   # slides: 13-gpu
 #
 # ==================
@@ -107,7 +107,7 @@
   # slides: 14-densela
 -
   date: 2026-03-19
-  info: Computational Biology using Sparse Linear Algebra
+  info: High-Performance Computational Biology
   # slides: 15-densela
 #
 # ==================
