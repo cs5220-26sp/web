@@ -3,26 +3,26 @@
   file: hw0.html
   due: 2026-01-29
 -
-  desc: "HW1: Matrix Multiply"
+  desc: "HW1: Optimized Matrix Multiply"
   # file: proj1.html
-  due: 2026-02-05
+  due: 2026-02-12
 -
-  desc: "HW2: OpenMP Particle Simulation"
+  desc: "HW2: Parallel Particle Simulation using OpenMP"
   # file: hw1.html
-  due: 2026-02-19
+  due: 2026-02-26
 -
-  desc: "HW3: MPI Particle Simulation"
+  desc: "HW3: Parallel Particle Simulation using MPI"
   # file: hw2.html
-  due: 2026-03-05
+  due: 2026-03-12
 - 
-  desc: "HW4: Hello, CUDA"
+  desc: "HW4: Hello, Cerebras using CSL"
   # file: proj2.html
-  due: 2026-03-19
+  due: 2026-03-26
 -
-  desc: "HW5: Hello, Cerebras CSL"
+  desc: "HW5: Parallel Sparse Matrix Multiply using CUDA"
   # file: hw3.html
-  due: 2026-04-09
+  due: 2026-04-16
 -
-  desc: "HW6: Hello, UPC++"
+  desc: "HW6: Hello, NVSHMEM"
   # file: proj3.html
-  due: 2026-04-23
+  due: 2026-04-30
