@@ -11,7 +11,7 @@ The goal of this homework is to get you up and running on Perlmutter.
 
 Please create an account on [NERSC Perlmutter][nersc] on 2026-01-21 (you cannot do this before that date). It usually takes **2 to 5 business days** to be vetted and approved, so apply as soon as possible, as extensions will not be granted if you delay your application. 
 
-Please see [Ed][ed] (Ed will be activated on 2026-01-14) for the information needed to create an account. For privacy reasons, this data will not be posted on the public website; apologies for the extra step.
+Please see [Ed][ed] for the information needed to create an account. For privacy reasons, this data will not be posted on the public website; apologies for the extra step.
 
 <!-- PI: Giulia Guidi
 Repository: m4341
@@ -67,8 +67,8 @@ jobs to a queue (using `sbatch`) with some set of parameters
 describing resources that will be used.  The script that is submitted
 includes additional parameters, shell commands to set up the
 appropriate environment, and shell commands to run whatever is to be
-run. There is an [example submission script]() in the
-class [demos]() (to be released on 2026-01-14) repository.
+run. There is an [example submission script](hello-submit) in the
+class [demos][demos] (to be released on 2026-01-20) repository.
 
 It sometimes takes a bit for things to run, and it is not so easy to
 tell whether a code is taking a while because it has not been
@@ -81,13 +81,13 @@ the **login nodes**. Please do not to that.
 
 [jobs]: https://docs.nersc.gov/jobs/
 [monitor]: https://docs.nersc.gov/jobs/monitoring/
-<!-- [hello-submit]: https://github.com/cs5220-f24/demos/blob/main/hello-submit.sh -->
-<!-- [demos]: https://github.com/cs5220-f24/demos -->
+[hello-submit]: https://github.com/cs5220-26sp/demos/blob/master/hello-mpi/hello-submit.sh
+[demos]: https://github.com/cs5220-26sp/demos
 
 ## Your tasks (due 2026-01-29):
 
 - Create a NERSC account. It usually takes 2 to 5 business days to be vetted and approved, so do this right away.
-- Run the MPI ping-pong example from the [demos]() (to be released on 2026-01-14) subdirectory and submit
-  your timings from on Perlmutter on [Canvas]() (to be activated on 2026-01-14). 
+- Run the MPI ping-pong example from the [demos][demos] (to be released on 2026-01-20) subdirectory and submit
+  your timings from on Perlmutter on [Canvas](https://canvas.cornell.edu/courses/85162). 
 
-<!-- [demos]:  -->
+[demos]: https://github.com/cs5220-26sp/demos
