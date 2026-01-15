@@ -78,12 +78,12 @@
 #
 -
   date: 2026-03-03
-  info: TBD
+  info: Dense Linear Algebra
   travel: SIAM PP
   # slides: 12-gpu
 -
   date: 2026-03-05
-  info: TBD
+  info: Sparse Linear Algebra
   travel: SIAM PP
   # slides: 13-gpu
 #
@@ -103,11 +103,11 @@
 #
 -
   date: 2026-03-17
-  info: Dense Linear Algebra
+  info: Clustering using Sparse Linear Algebra
   # slides: 14-densela
 -
   date: 2026-03-19
-  info: Sparse Linear Algebra
+  info: Computational Biology using Sparse Linear Algebra
   # slides: 15-densela
 #
 # ==================
@@ -133,7 +133,7 @@
   # slides: 18-partition
 -
   date: 2026-04-09
-  info: High-Performance Computational Biology
+  info: Guest Lecture by Professor Helen Xu (Georgia Tech)
   # slides: 19-balance
 #
 # ==================
