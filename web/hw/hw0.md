@@ -7,6 +7,8 @@ Due 2026-01-29.
 
 The goal of this homework is to get you up and running on Perlmutter.
 
+# Perlmutter Basics
+
 ## Create a NERSC account
 
 Please create an account on [NERSC Perlmutter][nersc] on 2026-01-21 (you cannot do this before that date). It usually takes **2 to 5 business days** to be vetted and approved, so apply as soon as possible, as extensions will not be granted if you delay your application. 
@@ -53,12 +55,6 @@ that they target the appropriate behavior for the compute nodes.
 [lmod]: https://docs.nersc.gov/environment/lmod/
 [wrappers]: https://docs.nersc.gov/development/compilers/wrappers/
 
-## Programming models
-
-The course introduces MPI and OpenMP, the [recommended programming model on Perlmutter][mpi-openmp], starting with MPI. The [default MPI][default-mpi] on Perlmutter is the Cray MPI implementation.
-
-[mpi-openmp]: https://docs.nersc.gov/development/programming-models/
-[default-mpi]: https://docs.nersc.gov/development/programming-models/mpi/
 
 ## Running jobs
 
@@ -76,8 +72,15 @@ scheduled or because something has gone wrong.  You can use the `sqs`
 and `squeue` [monitoring tools][monitor] to check on the status of a
 running job.
 
+For running smaller workloads, it is also possible to request a so-called [interactive job](https://docs.nersc.gov/jobs/interactive/) that uses between 1-4 compute nodes.
+This is done using the `salloc` command.
+An interactive job gives you live, uninterrupted access to the requested compute nodes, meaning you can run commands on them from your terminal the same way you would on your laptop.
+This is very useful for debugging programs at smaller scale, since you do not have to wait for your job to make its way through the queue. 
+
 It is considered **bad form** to run anything computationally intensive on
-the **login nodes**. Please do not to that.
+the **login nodes**. Please do not do that.
+
+One final note -- when compiling code, it is generally recommended to use the login nodes, since code will compile much faster than on the compute nodes.
 
 [jobs]: https://docs.nersc.gov/jobs/
 [monitor]: https://docs.nersc.gov/jobs/monitoring/
@@ -87,7 +90,38 @@ the **login nodes**. Please do not to that.
 ## Your tasks (due 2026-01-29):
 
 - Create a NERSC account. It usually takes 2 to 5 business days to be vetted and approved, so do this right away.
-- Run the MPI ping-pong example from the [demos][demos] (to be released on 2026-01-20) subdirectory and submit
+- Run the MPI ping-pong example from the [demos][demos] repo (to be released on 2026-01-20) subdirectory and submit
   your timings from on Perlmutter on [Canvas](https://canvas.cornell.edu/courses/85162). 
+
+### Ping-Pong Example
+
+Here is some more information on the ping-pong part of the assignment:
+
+The ping-pong program is a small microbenchmark that sends buffers of various sizes back and forth between two nodes of Perlmutter using MPI.
+For each buffer size, the time needed to perform the exchange is noted.
+Once all of the buffer sizes have been tested, the timing data is used to fit the [Alpha-beta Model](https://downey.io/notes/omscs/cse6220/distributed-memory-model-mpi-collectives/) to Perlmutter's network architecture. 
+The Alpha-beta model is a simple two-term model used to reason about how long it takes to communicate data between nodes on an HPC cluster. 
+You do not need to understand the details of the Alpha-beta model to complete this assignment, but if you are curious, you can read more about it at the link supplied above.
+
+The `ping-pong` directory in the [demos][demos] repo contains everything you'll need for this assignment. In particular, it contains the following files:
+
+- `Makefile` -- used for building the ping pong executable 
+- `ping-plotter.py` -- used to plot the raw timing data emitted by the ping pong program and fit the Alpha-beta model to the data. Instructions on how to run this script can be found below.
+- `ping-submit.sh` -- jobscript used to submit a batch job to SLURM that will run the ping pong program and write the timing results to a file called `perlmutter.txt`
+- `ping.c` -- contains the actual ping pong program
+
+To compile the ping pong program, run `make` in the `ping-pong` directory.
+
+To submit a job that will run the program, run `sbatch ping-submit.sh`. To check on the status of the job, type `sqs`.
+
+Once your job has run, you can plot the results by first loading the `python` module via `module load python`, then running `python3 ping-plotter.py perlmutter`.
+This will create a plot named `perlmutter.svg`.
+
+To complete this assignment, you should submit a `.gz` file on [Canvas](https://canvas.cornell.edu/courses/85162) containing the following
+
+- `perlmutter.txt` -- produced by `ping-submit.sh`
+- `perlmutter.svg` -- produced by `ping-plotter.py`
+
+
 
 [demos]: https://github.com/cs5220-26sp/demos
