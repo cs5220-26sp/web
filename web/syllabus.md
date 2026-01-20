@@ -90,7 +90,7 @@ This spring, we will distribute code via Git repositories and recommend using Gi
 
 <!-- canvas:  -->
 
-## Course policies
+## Course Policies
 
 ### Grading
 
@@ -132,6 +132,10 @@ You will have two weeks to complete each coding assignment and more than a month
 
 If you need additional accommodation, you must request it in writing and in advance, including a clear rationale and a concrete plan for when you will be able to submit the work. Granting additional accommodation is not guaranteed.
 
+### Devices in Class
+
+The use of smartphones, laptops, and other electronic devices (e.g., tablet) is **not** permitted during class. Research shows that these devices can hinder learning and slow the pace of instruction for both the user and those around them. I recommend taking notes with paper and pen or printing the lecture slides in advance and annotating them during class.
+
 ### Collaboration
 
 An assignment is an academic document, like a journal article.
@@ -157,12 +161,48 @@ shared when you should have done them yourself).
 
 ### Use of Generative AI
 
-You may use generative AI tools if you wish, but we ask that **you
+<!-- You may use generative AI tools if you wish, but we ask that **you
 explicitly state where and how you have used these tools**. If you do
 use generative AI, you should make sure that you understand the
 generated code or text. You are ultimately the responsible party for
 your submissions, and incorrect or nonsensical results will be graded
-the same whether they are produced by a human or an AI system.
+the same whether they are produced by a human or an AI system. -->
+
+Generative AI tools (e.g., ChatGPT, GitHub Copilot) may be used **selectively and transparently**, subject to the following rules:
+
+**Disclosure and Responsibility:**
+
+- If you use generative AI in any form, you must explicitly state **where** and **how** it was used.
+- You must fully understand any AI-generated content you rely on.
+- You are ultimately responsible for everything you submit; incorrect or nonsensical results will be graded the same whether produced by a human or an AI system.
+
+**Writing and Report:**
+
+- Generative AI is **strictly prohibited** for:
+  - Assignment reports
+  - Project reports
+  - Written explanations, analyses, or conclusions
+- All written content must be entirely your own.
+
+**Code:**
+
+- For coding assignments and the coding portion of the final project, GenAI may be treated as a *collaborator* (see Collaboration Policy).
+- You may **not** copy code verbatim from:
+  - Generative AI tools
+  - Other students or groups
+  - The web
+- Any code you submit must be written, understood, and adapted by you.
+
+**Recommended Heuristics:**
+
+- Do not copy AI-generated text or code directly into your assignment.
+- Do not have your assignment and an AI assistant open at the same time.
+- Use AI tools only for high-level guidance, brainstorming, or debugging assistance—not as a source of final content.
+
+**Academic Integrity:**
+
+- Plagiarism or misrepresentation of authorship is a violation of the Academic Integrity Policy.
+- Proper disclosure and citation are required for any ideas or guidance obtained from AI tool(s) in the assignment or final report.
 
 ### Perlmutter (Course Cluster)
 
