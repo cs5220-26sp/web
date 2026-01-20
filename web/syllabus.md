@@ -90,7 +90,7 @@ This spring, we will distribute code via Git repositories and recommend using Gi
 
 <!-- canvas:  -->
 
-## Course policies
+## Course Policies
 
 ### Grading
 
@@ -131,6 +131,10 @@ The late policy and slip days **do not apply** to the **Final Project Poster** a
 You will have two weeks to complete each coding assignment and more than a month to complete the final project. **NO extensions will be granted** for reasons such as midterms, conference or journal paper deadlines, conference travel, similar professional obligations, or minor illness. You should plan accordingly and use slip days when necessary. Emails requesting extensions for these or similar reasons will be ignored.
 
 If you need additional accommodation, you must request it in writing and in advance, including a clear rationale and a concrete plan for when you will be able to submit the work. Granting additional accommodation is not guaranteed.
+
+### Devices in Class
+
+The use of smartphones, laptops, and other electronic devices (e.g., tablet) is **not** permitted during class. Research shows that these devices can hinder learning and slow the pace of instruction for both the user and those around them. I recommend taking notes with paper and pen or printing the lecture slides in advance and annotating them during class.
 
 ### Collaboration
 
