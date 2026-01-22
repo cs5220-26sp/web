@@ -10,6 +10,6 @@ I encourage you to use Git for your own work, but please do
 *not* put your assignment solutions in public [GitHub][gh] repositories.
 [GitHub][gh] and [BitBucket][bb] both offer private repositories.
 
-[cs5220]: http://www.cs.cornell.edu/courses/cs5220/2024fa
+[cs5220]: https://www.cs.cornell.edu/courses/cs5220/2026sp/
 [gh]: http://github.com/
 [bb]: https://bitbucket.org
