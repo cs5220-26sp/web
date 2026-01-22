@@ -11,7 +11,7 @@ prof:
   # phone: 607-255-5395
   office: Gates Hall 437
   oh:
-    - when: "Tu 3:00-4:00"
+    - when: "Tu 3:00-4:00 437 Gates Hall"
 
 staff:
   -
@@ -19,14 +19,14 @@ staff:
     url: https://hooninator.github.io/website.github.io/
     email: jbellavita@cs.cornell.edu
     oh:
-      - when: "Fr 4:00-5:00 [location TBD]"
+      - when: "Fr 4:00-5:00 107 Ives Hall"
   -
     name: Giridhar Balachandran
     email: gb555@cornell.edu
     oh:
-      - when: "We 5:00-6:00 [location TBD]"
-    -
+      - when: "We 5:00-6:00 576 Rhodes Hall"
+  -
     name: Anish Bhupalam
     email: ab2352@cornell.edu
-    oh:
-      - when: "TBD"
+    oh: 
+      - when: "Th 5:00-6:00 576 Rhodes Hall"
