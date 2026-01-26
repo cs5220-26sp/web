@@ -28,7 +28,9 @@ end
 
 ## Due Date
 
-February 12th, 11:59 PM
+Checkpoint: February 5th, 11:59 PM
+
+Final submission: February 12th, 11:59 PM
 
 
 ## Getting Started with Perlmutter
@@ -308,9 +310,21 @@ Still, you might want to try your code with different compilers to see if one ou
 
 We will grade your assignment by reviewing your assignment write-up report, looking at the optimization methods you attempted, and benchmarking your code's performance. To benchmark your code, we will compile it with the exact process detailed above, with the GNU compiler. Note that code that does not return correct results will receive significant penalties.
 
-The benchmark performance of your code will be worth 80/100 points and your report will receive a grade out of 20/100 points.
+The benchmark performance of your code will be worth 70/100 points and your report will receive a grade out of 20/100 points. The other 10/100 points will come from the checkpoint assignment (see below).
 
-**HW1 target average performance of your code across multiple runs**
+
+### Checkpoint
+
+To encourage you to start working on the assignment early and not leave things to the last minute, there is a **checkpoint** for this homework assignment that is due on February 5th at 11:59 PM EST.
+For the checkpoint, you need to demonstrate some performance improvement over the starter code.
+
+**For the checkpoint, your code must run at >= 15% of peak**.
+For reference, the starter code in `dgemm-blocked.c` will get around 6% of peak, and the naive approach in `dgemm-naive.c` will get around 4% of peak.
+
+The checkpoint is worth 10/100 total points.
+
+
+### HW1 target average performance of your code across multiple runs
 
 - \>= 50.0% of peak performance: A+
 - \>= 40.0% of peak performance: A
@@ -320,9 +334,6 @@ The benchmark performance of your code will be worth 80/100 points and your repo
 - \>=   7.5% of peak performance: B-
 - <    7.5% of peak performance: C+
 
-For reference, the starter code in `dgemm-blocked.c` will get around 6% of peak, and the naive approach in `dgemm-naive.c` will get around 4% of peak.
-
-Please note that due to the nature of the performance assessment (e.g. combination of several metrics), not every homework assignment has a predefined target performance. In that case, we'll show you the performance of the staff solution as the target, but the actual grade will be curved based on the class performance.
 
 ## Submission Details [IMPORTANT]
 
@@ -351,6 +362,8 @@ CS5220Group004_hw1/dgemm-blocked.c
 ```
 
 7. Download and submit your .tar.gz through canvas.
+
+**This process should be followed for both the checkpoint and final submissions**. For the checkpoint assignment, you can just create an empty pdf file for your report. 
 
 ## Report Write-up Direction
 
