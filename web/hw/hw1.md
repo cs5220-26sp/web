@@ -308,31 +308,35 @@ Still, you might want to try your code with different compilers to see if one ou
 
 ## Grading
 
-We will grade your assignment by reviewing your assignment write-up report, looking at the optimization methods you attempted, and benchmarking your code's performance. To benchmark your code, we will compile it with the exact process detailed above, with the GNU compiler. Note that code that does not return correct results will receive significant penalties.
+We will grade your assignment by reviewing your report and benchmarking your code's performance. To benchmark your code, we will compile it with the exact process detailed above, with the GNU compiler. Note that code that does not return correct results will receive significant penalties.
 
 The benchmark performance of your code will be worth 70/100 points and your report will receive a grade out of 20/100 points. The other 10/100 points will come from the checkpoint assignment (see below).
 
 
 ### Checkpoint
 
-To encourage you to start working on the assignment early and not leave things to the last minute, there is a **checkpoint** for this homework assignment that is due on February 5th at 11:59 PM EST.
+In order to encourage you to start working on the assignment early and not leave things to the last minute, there is a **checkpoint** for this homework assignment that is due on February 5th at 11:59 PM EST.
 For the checkpoint, you need to demonstrate some performance improvement over the starter code.
 
-**For the checkpoint, your code must run at >= 15% of peak**.
+**For the checkpoint, your code must run at >= 10% of peak**.
+
 For reference, the starter code in `dgemm-blocked.c` will get around 6% of peak, and the naive approach in `dgemm-naive.c` will get around 4% of peak.
 
-The checkpoint is worth 10/100 total points.
+The checkpoint is worth 10/100 total points, and you will get all 10 points if you hit the required performance threshold. 
 
 
 ### HW1 target average performance of your code across multiple runs
+
+These are the average percentages of peak you must get in order to attain different letter grades. Note that you should compile your code with the `-DALL_SIZES` option set to `ON` in CMake in order to get an accurate sense as to what grade bin you fall into. 
+These letter grades will be applied only to the 70/100 points associated with the performance of your code. 
 
 - \>= 50.0% of peak performance: A+
 - \>= 40.0% of peak performance: A
 - \>= 35.0% of peak performance: A-
 - \>= 30.0% of peak performance: B+
 - \>= 15.0% of peak performance: B
-- \>=   7.5% of peak performance: B-
-- <    7.5% of peak performance: C+
+- \>=   10.0% of peak performance: B-
+- <    10.0% of peak performance: C+
 
 
 ## Submission Details [IMPORTANT]
@@ -370,8 +374,8 @@ CS5220Group004_hw1/dgemm-blocked.c
 Your write-up report should contain:
 
 - Your name, cornell id, and perlmutter username,
-- A line plot showing the MFLOPS/s attained by your dgemm kernel on each matrix size in the complete set of matrix sizes (make sure to compile with -DALL_SIZES=True to run the full suite of matrix sizes).
-- A brief (<1000 character) explanation of what the plot shows. This can be a caption, or it can be in the body of the document.
+- A line plot showing the GFLOPS/s attained by your dgemm kernel on each matrix size in the complete set of matrix sizes (make sure to run CMake with -DALL_SIZES=ON to run the full suite of matrix sizes). You should also have a horizontal line on this plot that denotes theoretical peak, and this line should be easily distinguishable from the line that denotes the performance of your implementation. 
+- A brief (<1000 character) explanation of what the plot shows. This can be a caption or it can be in the body of the document.
 - Disclosure of any collaborations or use of generative AI. 
 
 ## Notes
