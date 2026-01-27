@@ -338,6 +338,14 @@ These letter grades will be applied only to the 70/100 points associated with th
 - \>=   10.0% of peak performance: B-
 - <    10.0% of peak performance: C+
 
+The letter grades will scale the 70/100 points associated with performance in the following way:
+
+- A+/A: 1.00
+- A-: 0.90
+- B+: 0.85
+- B: 0.82
+- B-: 0.80
+- C+: 0.70
 
 ## Submission Details [IMPORTANT]
 
