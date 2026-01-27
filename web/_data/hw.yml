@@ -3,8 +3,8 @@
   file: hw0.html
   due: 2026-01-29
 -
-  desc: "HW1: Optimized Matrix Multiply"
-  # file: proj1.html
+  desc: "HW1: Optimizing Matrix Multiply"
+  file: hw1.html
   due: 2026-02-12
 -
   desc: "HW2: Parallel Particle Simulation using OpenMP"
