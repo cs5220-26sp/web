@@ -333,7 +333,7 @@ These letter grades will be applied only to the 70/100 points associated with th
 - \>= 50.0% of peak performance: A+
 - \>= 40.0% of peak performance: A
 - \>= 35.0% of peak performance: A-
-- \>= 30.0% of peak performance: B+
+- \>= 25.0% of peak performance: B+
 - \>= 15.0% of peak performance: B
 - \>=   10.0% of peak performance: B-
 - <    10.0% of peak performance: C+
@@ -353,26 +353,17 @@ The letter grades will scale the 70/100 points associated with performance in th
 2. Make sure you have only modified the file dgemm-blocked.c, and it compiles and runs as desired.
 3. On Cavas, under the "People" section, there is a hw1 tab. Click on the tab and you'll see canvas has assigned a group id to each of you individually. Use the search bar to enter your name and find your group id. Treat it as a three digit number. (If you are group 4, your group id is "004").
 4. Ensure that your write-up pdf is located in your source directory, next to dgemm-blocked.c. It should be named CS5220Group004_hw1.pdf.
-5. From your build directory, run:
-
+5. Without the pdf in your source directory, the following command will fail. From your build directory, run:
 ```
 student@perlmutter:~/hw1/build> cmake -DGROUP_NO=004 ..
 student@perlmutter:~/hw1/build> make package
 ```
-
-
-This second command will fail if the PDF is not present.
-
 6. Confirm that it worked using the following command. You should see output like:
-
 ```
 student@perlmutter:~/hw1/build> tar tfz CS5220Group004_hw1.tar.gz
-
 CS5220Group004_hw1/CS5220Group004_hw1.pdf
 CS5220Group004_hw1/dgemm-blocked.c
-
 ```
-
 7. Download and submit your .tar.gz through canvas.
 
 **This process should be followed for both the checkpoint and final submissions**. For the checkpoint assignment, you can just create an empty pdf file for your report. 
@@ -382,7 +373,7 @@ CS5220Group004_hw1/dgemm-blocked.c
 Your write-up report should contain:
 
 - Your name, cornell id, and perlmutter username,
-- A line plot showing the GFLOPS/s attained by your dgemm kernel on each matrix size in the complete set of matrix sizes (make sure to run CMake with -DALL_SIZES=ON to run the full suite of matrix sizes). You should also have a horizontal line on this plot that denotes theoretical peak, and this line should be easily distinguishable from the line that denotes the performance of your implementation. 
+- A line plot showing the GFLOPS/s attained by your dgemm kernel on each matrix size in the complete set of matrix sizes (make sure to run CMake with -DALL_SIZES=ON to run the full suite of matrix sizes). You should also have a horizontal line on this plot that denotes theoretical peak, and this line should be easily distinguishable from the line that denotes the performance of your implementation. You can also optionally include a line corresponding to the performance achieved by `dgemm-blas.c`.
 - A brief (<1000 character) explanation of what the plot shows. This can be a caption or it can be in the body of the document.
 - Disclosure of any collaborations or use of generative AI. 
 
