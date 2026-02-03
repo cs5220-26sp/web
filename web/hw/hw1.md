@@ -327,7 +327,7 @@ The checkpoint is worth 10/100 total points, and you will get all 10 points if y
 
 ### HW1 target average performance of your code across multiple runs
 
-These are the average percentages of peak you must get in order to attain different letter grades. Note that you should compile your code with the `-DALL_SIZES` option set to `ON` in CMake in order to get an accurate sense as to what grade bin you fall into. 
+These are the average percentages of peak you must get in order to attain different letter grades. 
 These letter grades will be applied only to the 70/100 points associated with the performance of your code. 
 
 - \>= 50.0% of peak performance: A+
@@ -374,7 +374,7 @@ CS5220Group004_hw1/dgemm-blocked.c
 Your write-up report should contain:
 
 - Your name, cornell id, and perlmutter username,
-- A line plot showing the GFLOPS/s attained by your dgemm kernel on each matrix size in the complete set of matrix sizes (make sure to run CMake with -DALL_SIZES=ON to run the full suite of matrix sizes). You should also have a horizontal line on this plot that denotes theoretical peak, and this line should be easily distinguishable from the line that denotes the performance of your implementation. You can also optionally include a line corresponding to the performance achieved by `dgemm-blas.c`.
+- A line plot showing the GFLOPS/s attained by your dgemm kernel on each matrix size in the complete set of matrix sizes. You should also have a horizontal line on this plot that denotes theoretical peak, and this line should be easily distinguishable from the line that denotes the performance of your implementation. You can also optionally include a line corresponding to the performance achieved by `dgemm-blas.c`.
 - A brief (<1000 character) explanation of what the plot shows. This can be a caption or it can be in the body of the document.
 - Disclosure of any collaborations or use of generative AI. 
 
