@@ -276,7 +276,7 @@ There are also some papers in the next section of this write-up that provide det
 
 The development environment on Perlmutter supplies several different compilers, including Cray. However, we want you to use the GNU C compiler for this assignment.
 
-Still, you might want to try your code with different compilers to see if one outperforms the other. If the difference is significant, consider using the (Compiler Explorer)[https://www.google.com/url?q=https%3A%2F%2Fgcc.godbolt.org%2Fz%2Fv2fTDJ&sa=D&sntz=1&usg=AOvVaw372oypTwxKaKj1tbrn_Hke] to figure out why GCC isn't optimizing your code as well. For more information on the compilers available, see the [NERSC docs](https://docs.nersc.gov/systems/perlmutter/software/).
+Still, you might want to try your code with different compilers to see if one outperforms the other. If the difference is significant, consider using the [Compiler Explorer](https://www.google.com/url?q=https%3A%2F%2Fgcc.godbolt.org%2Fz%2Fv2fTDJ&sa=D&sntz=1&usg=AOvVaw372oypTwxKaKj1tbrn_Hke) to figure out why GCC isn't optimizing your code as well. For more information on the compilers available, see the [NERSC docs](https://docs.nersc.gov/systems/perlmutter/software/).
 
 
 ## References
@@ -411,7 +411,7 @@ where eps := 2^-52 = 2.2 * 10^-16 is the [machine epsilon](http://www.google.com
 
 ## Documentation
 
-- [GCC documentation](https://gcc.gnu.org/onlinedocs/gcc-11.2.0/gcc/) - Perlmutter's version currently is GCC 13.1.0
+- [GCC documentation](https://gcc.gnu.org/onlinedocs/gcc-11.2.0/gcc/) - Perlmutter's version currently is GCC 13.2.1
 - [GCC's vector extensions](https://gcc.gnu.org/onlinedocs/gcc-8.3.0/gcc/Vector-Extensions.html#Vector-Extensions)
 - [GCC's built-ins](https://www.google.com/url?q=https%3A%2F%2Fgcc.gnu.org%2Fonlinedocs%2Fgcc-8.3.0%2Fgcc%2FOther-Builtins.html%23Other-Builtins&sa=D&sntz=1&usg=AOvVaw3p4zP_OjIeTSggK6zrssIf)
 - [GCC's variable attributes](https://www.google.com/url?q=https%3A%2F%2Fgcc.gnu.org%2Fonlinedocs%2Fgcc-8.3.0%2Fgcc%2FCommon-Variable-Attributes.html%23Common-Variable-Attributes&sa=D&sntz=1&usg=AOvVaw1JaXRf4EawtUhnkManVmiZ)
