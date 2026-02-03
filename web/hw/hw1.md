@@ -340,7 +340,8 @@ These letter grades will be applied only to the 70/100 points associated with th
 
 The letter grades will scale the 70/100 points associated with performance in the following way:
 
-- A+/A: 1.00
+- A+: 1.00
+- A: 0.98
 - A-: 0.90
 - B+: 0.85
 - B: 0.82
