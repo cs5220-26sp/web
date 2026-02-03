@@ -105,7 +105,7 @@ Next, we have to configure our build. We can either build our code in Debug mode
 ```
 student@login04:~/hw1/build> cmake -DCMAKE_BUILD_TYPE=Release ..
 
--- The C compiler identification is GNU 13.1.0
+-- The C compiler identification is GNU 13.2.1
 
 ...
 
@@ -388,7 +388,7 @@ Your grade will mostly depend on three factors:
 
 There are other formulations of matmul (e.g., [Strassen](http://www.google.com/url?q=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FStrassen_algorithm&sa=D&sntz=1&usg=AOvVaw2Pf7JDXXL7Es4SQ6Vt-g3G)) that are mathematically equivalent, but perform asymptotically fewer computations - we will not grade submissions that do fewer computations than the 2 n^3 algorithm. 
 
-You must use the GNU C Compiler 13.1.0 for this assignment. If your code does not compile and run with GCC 13.1.0, it will not be graded. TODO DOUBLE CHECK VERSION.
+You must use the GNU C Compiler 13.2.1 for this assignment. If your code does not compile and run with GCC 13.2.1, it will not be graded. 
 
 Besides compiler intrinsic functions and built-ins, your code (dgemm-blocked.c) must only call into the C standard library.
 
