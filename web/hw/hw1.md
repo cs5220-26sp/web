@@ -376,7 +376,7 @@ Your write-up report should contain:
 - Your name, cornell id, and perlmutter username,
 - A line plot showing the GFLOPS/s attained by your dgemm kernel on each matrix size in the complete set of matrix sizes. You should also have a horizontal line on this plot that denotes theoretical peak, and this line should be easily distinguishable from the line that denotes the performance of your implementation. You can also optionally include a line corresponding to the performance achieved by `dgemm-blas.c`.
 - A brief (<1000 character) explanation of what the plot shows. This can be a caption or it can be in the body of the document.
-- Disclosure of any collaborations or use of generative AI. 
+- Disclosure of any collaborations or use of generative AI. **If you did not use AI, you should disclose this as well.** 
 
 ## Notes
 
