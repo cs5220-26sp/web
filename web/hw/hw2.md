@@ -316,7 +316,7 @@ If your code produces incorrect results, it will not be graded.
 The output files that are produced from running the program with the "-o" command line parameter can be fed into the hw2-rendering tool made available to convert them into .gif files. These animations will be a useful tool in debugging. To get started clone the hw2-rendering repo:
 
 ```
-student@login04:~> git clone git@github.com:CS5220-SP23/HW2_rendering.git
+student@login04:~> git clone git@github.com:CS5220-SP23/HW2-render.git
 ```
 
 This tool uses python. This can be loaded on Perlmutter with the following command:
@@ -338,7 +338,7 @@ Here serial.parts.out is an output file from the "-o" command line parameter. Yo
 The output files that are produced from running the program with the "-o" command line parameter can be fed into the hw2-correctness tool made available to perform a correctness check. This is the same correctness check we will be performing when grading the homework, however, we will randomly select the particle seeds. To get started clone the hw2-correctness repo:
 
 ```
-student@login04:~> git clone git@github.com:CS5220-SP23/HW2_correctness.git
+student@login04:~> git clone git@github.com:CS5220-SP23/HW2-correctness.git
 ```
 
 This tool uses python. This can be loaded on Perlmutter with the following command:
