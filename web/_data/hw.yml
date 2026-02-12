@@ -8,7 +8,7 @@
   due: 2026-02-12
 -
   desc: "HW2: Parallel Particle Simulation using OpenMP"
-  # file: hw1.html
+  file: hw2.html
   due: 2026-02-26
 -
   desc: "HW3: Parallel Particle Simulation using MPI"
