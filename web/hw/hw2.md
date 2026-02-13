@@ -95,7 +95,7 @@ Next, we have to configure our build. We can either build our code in Debug mode
 ```
 student@login04:~/hw2/build> cmake -DCMAKE_BUILD_TYPE=Release ..
 
--- The C compiler identification is GNU 13.2.0
+-- The C compiler identification is GNU 13.2.1
 
 ...
 
