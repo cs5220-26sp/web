@@ -95,7 +95,7 @@ Next, we have to configure our build. We can either build our code in Debug mode
 ```
 student@login04:~/hw2/build> cmake -DCMAKE_BUILD_TYPE=Release ..
 
--- The C compiler identification is GNU 13.2.0
+-- The C compiler identification is GNU 13.2.1
 
 ...
 
@@ -220,8 +220,8 @@ There are usually a few groups each year that develop faster methods for calcula
 
 ## Checkpoint
 
-For this homework assignment, the checkpoint requirement is to submit a version of the serial code that gets a linear scaling coefficient of at **least 1.4 when you scale the number of particles from 1e3 to 1e6.**
-In other words, your serial implementation must scale at least as $O(n^{1.4})$.
+For this homework assignment, the checkpoint requirement is to submit a version of the serial code that gets a linear scaling coefficient of at **most 1.4 when you scale the number of particles from 1e3 to 1e6.**
+In other words, your serial implementation must scale as $O(n^{1.4})$ or better.
 
 ### The due date for the checkpoint is February 19th at 11:59 PM EST.
 
