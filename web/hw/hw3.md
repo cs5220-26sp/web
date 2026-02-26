@@ -184,7 +184,7 @@ Your score on the "final performance" part is broken up into a serial portion an
 
 3. PE2: Parallel efficiency on 2e6 particles when going from 128 processes acrosss 2 nodes to 256 processes across 2 nodes. 
 
-If `RS <= 11s`, i.e. your serial runtime is less than or equal to 11 seconds, then you will get 10/70 points. This is a binary "yes/no" kind of deal. 
+If `RS <= 9s`, i.e. your serial runtime is less than or equal to 11 seconds, then you will get 10/70 points. This is a binary "yes/no" kind of deal. 
 
 Then, your overall parallel performance metric is computed as `ParPerf = PE1 * 0.5 + PE2 * 0.5`
 
@@ -194,7 +194,7 @@ We understand that this may introduce some ambiguity in the grading process. To 
 
 ## Checkpoint
 
-The checkpoint for this assignment requires your implementation to achieve a runtime of at least 11 seconds on 1e5 particles when run on a single process. Note that this is identical to what you must do in order to get the 10 points based on the `RS` metric from above. 
+The checkpoint for this assignment requires your implementation to achieve a runtime of at least 9 seconds on 1e5 particles when run on a single process. Note that this is identical to what you must do in order to get the 10 points based on the `RS` metric from above. 
 
 ### The checkpoint is due on March 5th, 2026 at 11:59 PM ET.
 
