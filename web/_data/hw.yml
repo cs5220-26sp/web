@@ -12,7 +12,7 @@
   due: 2026-02-26
 -
   desc: "HW3: Parallel Particle Simulation using MPI"
-  # file: hw2.html
+  file: hw3.html
   due: 2026-03-12
 - 
   desc: "HW4: Hello, Cerebras using CSL"
