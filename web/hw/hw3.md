@@ -186,7 +186,7 @@ Your score on the "final performance" part is broken up into a serial portion an
 
 3. PE2: Parallel efficiency on 2e6 particles when going from 128 processes acrosss 2 nodes to 256 processes across 2 nodes. 
 
-If `RS <= 9s`, i.e. your serial runtime is less than or equal to 9 seconds, then you will get 10/65 points. This is a binary "yes/no" kind of deal. 
+If `RS <= 9s`, i.e. your serial runtime is less than or equal to 9 seconds, then you will get 10/65 points. 
 
 Then, your overall parallel performance metric is computed as `ParPerf = PE1 * 0.5 + PE2 * 0.5`
 
