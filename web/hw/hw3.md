@@ -174,7 +174,9 @@ Your score out of 100 points will be broken down into the following categories
 
 - 10/100 points: Checkpoint
 
-- 70/100 points: Final Performance
+- 5/100 points: Leaderboard Submission
+
+- 65/100 points: Final Performance
 
 Your score on the "final performance" part is broken up into a serial portion and a parallel portion. The following metrics will be used
 
@@ -184,17 +186,25 @@ Your score on the "final performance" part is broken up into a serial portion an
 
 3. PE2: Parallel efficiency on 2e6 particles when going from 128 processes acrosss 2 nodes to 256 processes across 2 nodes. 
 
-If `RS <= 11s`, i.e. your serial runtime is less than or equal to 11 seconds, then you will get 10/70 points. This is a binary "yes/no" kind of deal. 
+If `RS <= 9s`, i.e. your serial runtime is less than or equal to 9 seconds, then you will get 10/65 points. This is a binary "yes/no" kind of deal. 
 
 Then, your overall parallel performance metric is computed as `ParPerf = PE1 * 0.5 + PE2 * 0.5`
 
-This metric will determine your score on the remaining 60 points of this assignment. Unlike previous assignments, we will not be using predetermined grade bins in order to give you a letter grade for these 60 points. The reason for this is that we usually set grade bins based on historical performance data for this class. However, with the rise and spread of GenAI, we have found historical data to no longer be informative for setting bins, since people tend to get higher scores on average when using GenAI. Therefore, we will be determining your grade on these 60 points based on a curve that will be shaped based on the relative performance of everyone in the class. 
+This metric will determine your score on the remaining 55 points of this assignment. Unlike previous assignments, we will not be using predetermined grade bins in order to give you a letter grade for these 55 points. The reason for this is that we usually set grade bins based on historical performance data for this class. However, with the rise and spread of GenAI, we have found historical data to no longer be informative for setting bins. Additionally, updates to Perlmutter over time make historical performance data less informative. Therefore, we will be determining your grade on these 55 points based on a curve that will be shaped based on the performance of everyone in the class. 
 
-We understand that this may introduce some ambiguity in the grading process. To offset this, we are introducing a **live leaderboard** that students can submit their performance metrics to over the course of the assignment. See below for details on submission, but this leaderboard will give you a sense of how people in the class are doing on average, and on where you might stand on the curve. We hope that this will mitigate uncertainty to a degree. 
+To add additional clarity to this grading process, we are introducing a **live leaderboard** that students can submit their performance metrics to over the course of the assignment. See below for details on submission, but this leaderboard will give you a sense of how people in the class are doing on average, and on where you might stand on the curve. 
+
+A few more points to emphasize:
+
+1. We will not curve your grade to be below a B-
+
+2. 45/100 points are not determined by a curve
+
+3. It is possible for everyone to get an A if all submissions perform similarly well.
 
 ## Checkpoint
 
-The checkpoint for this assignment requires your implementation to achieve a runtime of at least 11 seconds on 1e5 particles when run on a single process. Note that this is identical to what you must do in order to get the 10 points based on the `RS` metric from above. 
+The checkpoint for this assignment requires your implementation to achieve a runtime of at least 9 seconds on 1e5 particles when run on a single process. Note that this is identical to what you must do in order to get the 10 points based on the `RS` metric from above. 
 
 ### The checkpoint is due on March 5th, 2026 at 11:59 PM ET.
 
@@ -208,7 +218,11 @@ The leaderboard can be found [here](https://leaderboard-zm07.onrender.com/) To s
 
 3. Run `python3 submit.py leaderboard-output.out` -- this will submit your results to the leaderboard. It will also generate a unique username that will be tied to your submissions and used to identify them on the leaderboard, for example `pink-unicorn-448`.
 
-**Please do not submit fraudulent output files to the leaderboard. Only submit files that are produced by an un-modified version of `job-leaderboard`**. Ultimately, we will determine both your grade and the final curve based on the actual performance of everyone's code when run with the autograder, **not** based on what the leaderboard says. Therefore, submitting fake output files to the leaderboard will not help your grade at all, and it will only increase stress for your fellow students. We trust everyone to be good HPC citizens and submit genuine output files. 
+**We ask everyone to submit to the leaderboard at least once between March 6th and March 11th. 5/100 points will be associated with submitting to the leaderboard once.** Once you have submitted to the leaderboard, upload the `leaderboard-output.out` file you submitted to the HW3 (Leaderboard) assignment on Canvas. 
+
+**Please do not submit fraudulent output files to the leaderboard. Only submit files that are produced by an un-modified version of `job-leaderboard`**. Ultimately, we will determine both your grade and the final curve based on the actual performance of everyone's code when run with the autograder, **not** based on what the leaderboard says. We will treat fake leaderboard submissions as an AI violation. We trust everyone to be good HPC citizens and submit genuine output files. 
+
+
 
 It is also possible that there may be bugs in the leaderboard. If you find anything you suspect is a bug, please make an Ed post about it.
 
