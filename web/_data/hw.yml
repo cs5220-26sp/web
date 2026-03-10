@@ -19,10 +19,22 @@
   # file: proj2.html
   due: 2026-03-26
 -
+  desc: "Project: Project Proposal"
+  file: proj-proposal.html
+  due: 2026-03-27
+-
   desc: "HW5: Parallel Sparse Matrix Multiply using CUDA"
   # file: hw3.html
   due: 2026-04-16
 -
+  desc: "Project: Poster & Checkpoint"
+  # file: proj-proposal.html
+  due: 2026-04-29
+-
   desc: "HW6: Hello, NVSHMEM"
   # file: proj3.html
   due: 2026-04-30
+# -
+#   desc: "Project: Report"
+#   # file: proj-proposal.html
+#   due: 2026-05-
