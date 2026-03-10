@@ -91,7 +91,7 @@ _Posters (PDF) will be made publicly available on the course website._
 
 The final report will be evaluated on the following four components, in order of importance. Not all projects will have all four, but components 1 and 2 are expected in every project. The majority of your report should focus on parallelism, not on the problem description itself.
 
-1. **Practical content and creativity**; implementation and tuning effort
+1. **Practical content**; implementation and tuning effort
 2. **Experimental data**: scaling/performance analysis, interesting inputs or outputs
 3. **Theoretical content and creativity**: design and analysis of algorithms
 4. **Impact**: difficulty and timeliness of the contribution
