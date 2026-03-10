@@ -17,7 +17,7 @@
 - 
   desc: "HW4: Hello, Cerebras using CSL"
   # file: proj2.html
-  due: 2026-03-26
+  due: 2026-03-27
 -
   desc: "Project: Project Proposal"
   file: proj-proposal.html
@@ -25,7 +25,7 @@
 -
   desc: "HW5: Parallel Sparse Matrix Multiply using CUDA"
   # file: hw3.html
-  due: 2026-04-16
+  due: 2026-04-17
 -
   desc: "Project: Poster & Checkpoint"
   # file: proj-proposal.html
@@ -33,7 +33,7 @@
 -
   desc: "HW6: Hello, NVSHMEM"
   # file: proj3.html
-  due: 2026-04-30
+  due: 2026-05-01
 -
   desc: "Project: Report"
   # file: proj-proposal.html
