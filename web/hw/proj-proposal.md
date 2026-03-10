@@ -75,11 +75,11 @@ Your proposal must address all five of the following questions. Use them as sect
 
 ## Grading (30% of Course Grade)
 
-| Component | Weight   | Notes   |
-|-----------|----------|---------|
-| Proposal | 5%        | This assignment |
-| Poster & Poster session participation | 5%        | Checkpoint submission by Apr 29 **AND** attend both Apr 30 **AND** May 5 lectures (poster session); note the **and** condition missing one of these is going to result in a 0 in this portion. |
-| Final report | 20%        | Please see final report assignment for rubric (it will be published by March 13) |
+**Proposal** — 5% (this assignment).
+
+**Poster & Poster Session Participation** — 5% for checkpoint submission due Apr 29, **and** attendance at **both** the Apr 30 and May 5 lectures (poster session). Please note the strict **and** condition: missing any one of these results in a 0 for this component.
+
+**Final Report** — 20% for the final report assignment; precise rubric to be published by March 13.
 
 ---
 
