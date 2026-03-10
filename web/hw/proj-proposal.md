@@ -69,7 +69,7 @@ Your proposal must address all five of the following questions. Use them as sect
 | Apr 6 | Project work begins |
 | Apr 29 | Checkpoint report and poster due (all groups) |
 | Apr 30 & May 5 | Poster sessions (attendance required at both) |
-| Mid-May | Final report due (date TBD by university registrar) |
+| May 13 | Final report due (date by university registrar) |
 
 ---
 
