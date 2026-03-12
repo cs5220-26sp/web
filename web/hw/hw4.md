@@ -9,6 +9,8 @@ This assignment is an introduction to programming on Cerebras's Wafer-Scale Engi
 
 In this assignment, you will implement distributed matrix multiplication $C = A \cdot B$ on a 2D grid of processing elements, where $A \in \mathbb{R}^{M \times H}$, $B \in \mathbb{R}^{H \times N}$, $C \in \mathbb{R}^{M \times N}$. All elements are fp32. The PE grid has `kernel_x_dim` columns and `kernel_y_dim` rows.
 
+The github repository for this assignment is [here](https://github.com/cs5220-26sp/hw_4).
+
 # Algorithm
 
 The algorithm proceeds in three phases:
