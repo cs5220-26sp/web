@@ -167,6 +167,8 @@ Total reductions per PE: `kernel_y_dim` $\times$ `dN_y` $= N$, one per global co
 
 # Grading
 
+### IMPORTANT: There is a planned Perlmutter monthly maintenance between March 18th and March 19th. Please factor this into your time management for this assignment. 
+
 Your score out of 100 points will be broken down into the following categories
 
 - 20/100 points: Writeup
@@ -182,6 +184,9 @@ Your score on the "Runtime Performance" part is determined by the `Runtime` valu
 As with HW3, there will be a leaderboard for this homework that you can use to determine where you might land on the curve. 
 
 **Right now, the leaderboard is under construction. Once it is complete, there will be a link to it placed here.**
+
+Additionally, if your implementation attains a runtime below a certain threshold, we will guarantee at least a B+ on the 50 Runtime Performance points. **We are still determining what the exact threshold will be, but we will decide on what it is by March 13th at the latest.**
+
 
 ## Checkpoint
 
