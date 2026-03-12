@@ -75,13 +75,13 @@ Note that you will work individually for this assignment.
 
 ## Setting Up the SDK
 
-This assignment uses the Cerebras SDK. We have placed a version of the SDK on Perlmutter, available at `/global/cfs/cdirs/m4341/cs6230/sdk-1.4.0`. To setup and install the SDK, first run:
+This assignment uses the Cerebras SDK. We have placed a version of the SDK on Perlmutter, available at `/global/cfs/cdirs/m4341/cs6230/homework26-sdk-1.4.0`. To setup and install the SDK, first run:
 ```
-student@perlmutter: ~/hw4/global/cfs/cdirs/m4341/cs6230/sdk-1.4.0/install.sh
+student@perlmutter: ~/hw4/global/cfs/cdirs/m4341/cs6230/homework26-sdk-1.4.0/install.sh
 ```
 then add the SDK to your path:
 ```
-student@perlmutter: export PATH=$PATH:/global/cfs/cdirs/m4341/cs6230/sdk-1.4.0
+student@perlmutter: export PATH=$PATH:/global/cfs/cdirs/m4341/cs6230/homework26-sdk-1.4.0
 ```
 verify this has worked by running:
 ```
@@ -187,7 +187,7 @@ As with HW3, there will be a leaderboard for this homework that you can use to d
 
 **Right now, the leaderboard is under construction. Once it is complete, there will be a link to it placed here.**
 
-Additionally, if your implementation attains a runtime below a certain threshold, we will guarantee at least a B+ on the 50 Runtime Performance points. **The threshold for a B+ is 428000 cycles as reported by `test_perf.sh`**.
+Additionally, if your implementation attains a runtime below a certain threshold, we will guarantee at least a B+ on the 50 Runtime Performance points. **The threshold for at least a B+ is 428000 cycles as reported by `test_perf.sh`**.
 
 
 ## Checkpoint
