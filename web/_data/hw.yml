@@ -15,8 +15,8 @@
   file: hw3.html
   due: 2026-03-12
 - 
-  desc: "HW4: Hello, Cerebras using CSL"
-  # file: proj2.html
+  desc: "HW4: Distributed Matrix Multiplication on WSE-2"
+  file: hw4.html
   due: 2026-03-27
 -
   desc: "Project: Project Proposal"
