@@ -7,7 +7,7 @@
   # slides: 01-intro
 -
   date: 2026-01-22
-  info: Single Processor Architecture and Optimization Basics
+  info: Single Processor Architecture and Optimization Basics (Part 1)
   # slides: 02-perf-basics
   # notes: 01-perf-basics.html
 #
@@ -16,7 +16,7 @@
 #
 -
   date: 2026-01-27
-  info: Performance Optimization
+  info: Single Processor Architecture and Optimization Basics (Part 2)
   # slides: 03-single-core
 -
   date: 2026-01-29
@@ -57,7 +57,7 @@
   break: February Break
 -
   date: 2026-02-19
-  info: Load Balancing and Work Stealing
+  info: Shared Memory Programming (Part 3)
   # slides: 09-mpi
 #
 # ==================
@@ -78,12 +78,12 @@
 #
 -
   date: 2026-03-03
-  info: Dense Linear Algebra
+  info: Dense Linear Algebra (Part 1)
   # travel: SIAM PP
   # slides: 12-gpu
 -
   date: 2026-03-05
-  info: Sparse Linear Algebra
+  info: Dense Linear Algebra (Part 2)
   # travel: SIAM PP
   # slides: 13-gpu
 #
@@ -103,11 +103,11 @@
 #
 -
   date: 2026-03-17
-  info: Clustering using Sparse Linear Algebra
+  info: Class Canceled
   # slides: 14-densela
 -
   date: 2026-03-19
-  info: High-Performance Computational Biology
+  info: Clustering using Sparse Linear Algebra
   # slides: 15-densela
 #
 # ==================
@@ -129,7 +129,7 @@
 #
 -
   date: 2026-04-07
-  info: Parallel Graph Algorithms
+  info: High-Performance Computational Biology
   # slides: 18-partition
 -
   date: 2026-04-09
@@ -152,7 +152,7 @@
 #
 -
   date: 2026-04-21
-  info: Mixed-Precision Computation
+  info: Guest Lecture by Professor Aditya Devarakonda (Wake Forest University)
   # slides: 20-fp
 -
   date: 2026-04-23
