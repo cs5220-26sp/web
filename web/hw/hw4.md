@@ -77,7 +77,7 @@ Note that you will work individually for this assignment.
 
 This assignment uses the Cerebras SDK. We have placed a version of the SDK on Perlmutter, available at `/global/cfs/cdirs/m4341/cs6230/homework26-sdk-1.4.0`. To setup and install the SDK, first run:
 ```
-student@perlmutter: ~/hw4/global/cfs/cdirs/m4341/cs6230/homework26-sdk-1.4.0/install.sh
+student@perlmutter: /global/cfs/cdirs/m4341/cs6230/homework26-sdk-1.4.0/install.sh
 ```
 then add the SDK to your path:
 ```
