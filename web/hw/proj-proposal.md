@@ -77,9 +77,11 @@ Your proposal must address all five of the following questions. Use them as sect
 
 **Proposal** — 5% (this assignment).
 
-**Poster & Poster Session Participation** — 5% for checkpoint submission due Apr 29, **and** attendance at **both** the Apr 30 and May 5 lectures (poster session). Please note the strict **and** condition: missing any one of these results in a 0 for this component.
+**Poster** — 1.5% for checkpoint submission due Apr 29.
 
-**Final Report** — 20% for the final report assignment; precise rubric to be published by March 13.
+**Poster Session Participation** — 4% attendance at **both** the Apr 30 and May 5 lectures (poster session). -2% each lecture/session missed.
+
+**Final Report** — 19.5% for the final report assignment; precise rubric to be published by March 13.
 
 ---
 
