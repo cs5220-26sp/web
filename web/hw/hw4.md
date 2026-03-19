@@ -183,9 +183,7 @@ Your score out of 100 points will be broken down into the following categories
 
 Your score on the "Runtime Performance" part is determined by the `Runtime` value emitted by the `test_perf.sh` script provided in the repo. Similar to HW3, this part will be graded on a curve determined by the performance of everyone in the class. 
 
-As with HW3, there will be a leaderboard for this homework that you can use to determine where you might land on the curve. 
-
-**Right now, the leaderboard is under construction. Once it is complete, there will be a link to it placed here.**
+As with HW3, there is a leaderboard for this homework that you can use to determine where you might land on the curve. The leaderboard is available [here](https://leaderboard-zm07.onrender.com/hw4).
 
 Additionally, if your implementation attains a runtime below a certain threshold, we will guarantee at least a B+ on the 50 Runtime Performance points. **The threshold for at least a B+ is 428000 cycles as reported by `test_perf.sh`**.
 
@@ -200,7 +198,7 @@ The checkpoint for this assignment requires you to pass 5/20 of the correctness 
 
 Before the deadline on March 27th, you must submit once to the leaderboard. Before submitting to the leaderboard, you must pass all the correctness tests in `test_configs.sh`. The leaderboard will check to make sure you pass all tests before allowing your submission. 
 
-**Details on leaderboard submission will be added here once the leaderboard is finished**
+Leaderboard submission follows the same basic process as in HW3. There is a `job-leaderboard` script that you must run. You can submit an output file containing the output of `job-leaderboard` to the actual leaderboard using `submit.py <name-of-output-file>`. For the leaderboard Canvas assignment, you should submit a `.gz` file containing the output of `job-leaderboard`. 
 
 ## Submission Details
 
