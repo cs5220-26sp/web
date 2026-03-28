@@ -23,8 +23,8 @@
   file: proj-proposal.html
   due: 2026-03-27
 -
-  desc: "HW5: Parallel Sparse Matrix Multiply using CUDA"
-  # file: hw3.html
+  desc: "HW5: Parallel Sparse-Dense Matrix Multiply using CUDA"
+  file: hw5.html
   due: 2026-04-17
 -
   desc: "Project: Poster & Checkpoint"
