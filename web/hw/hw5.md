@@ -42,6 +42,8 @@ tests/
 
 get_matrices.sh    # Downloads and extracts the three benchmark sparse matrices from the SuiteSparse Matrix Collection.
 run.sh             # SLURM batch script that runs the test_spmm benchmark on all three matrices with k=64 and k=256 on Perlmutter.
+job-leaderboard    # Script for producing output to be submitted to the leaderboard
+submit.py          # Submits to the leaderboard
 ```
 
 ## Build Instructions ##
@@ -117,9 +119,11 @@ All tests will be run on a single 40GB A100 GPU on Perlmutter.
 
 ### Leaderboard
 
-There will be a leaderboard, it is still under construction, but it will function the same as the leaderboard in HW3 and HW4. 
+The leaderboard for this homework assignment is located [here](https://leaderboard-zm07.onrender.com/hw5). 
 You'll be ranked on the leaderboard based off of your average GFLOPS/s across all three test matrices and the two test values of `k`. 
 To get the 10 Leaderboard Submission points, we ask that you submit at least once to the leaderboard before the final deadline of April 17th.
+
+The process for submitting to the leaderboard is the same as HW3 and HW4. The `job-leaderboard` script will produce an output file `leaderboard.out` that can be submitted to the leaderboard with `submit.py`.
 
 ### Writeup ### 
 
